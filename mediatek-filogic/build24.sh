@@ -48,22 +48,22 @@ PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
-PACKAGES="$PACKAGES luci-app-argon-config"
-PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+#PACKAGES="$PACKAGES luci-app-argon-config"
+#PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 #24.10.0
-PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 # 文件管理器
-PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 科学(推荐)
 PACKAGES="$PACKAGES luci-app-openclash"
 # 共享(推荐)
 PACKAGES="$PACKAGES luci-app-samba4"
 # 分区扩容 by sirpdboy 
-PACKAGES="$PACKAGES luci-app-partexp"
-PACKAGES="$PACKAGES luci-i18n-partexp-zh-cn"
+#PACKAGES="$PACKAGES luci-app-partexp"
+#PACKAGES="$PACKAGES luci-i18n-partexp-zh-cn"
 #其他工具
 PACKAGES="$PACKAGES luci-app-vlmcsd"
 PACKAGES="$PACKAGES luci-app-ddns-go"
