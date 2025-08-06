@@ -57,12 +57,17 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
-# 静态文件服务器dufs(推荐)
-PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+# 科学(推荐)
+PACKAGES="$PACKAGES luci-app-openclash"
+# 共享(推荐)
+PACKAGES="$PACKAGES luci-app-samba4"
 # 分区扩容 by sirpdboy 
 PACKAGES="$PACKAGES luci-app-partexp"
 PACKAGES="$PACKAGES luci-i18n-partexp-zh-cn"
-
+#其他工具
+PACKAGES="$PACKAGES luci-app-vlmcsd"
+PACKAGES="$PACKAGES luci-app-ddns-go"
+PACKAGES="$PACKAGES luci-proto-wireguard"
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
