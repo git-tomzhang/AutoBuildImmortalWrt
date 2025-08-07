@@ -75,6 +75,8 @@ PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 PACKAGES="$PACKAGES luci-app-ddns-go"
 PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 PACKAGES="$PACKAGES luci-proto-wireguard"
+PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn"
+
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
